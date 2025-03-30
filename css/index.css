@@ -3,3 +3,13 @@ body{
   justify-content: center;
   align-items: center;
 }
+.login-container{
+  width: 550px;
+}
+.login-container h2{
+  font-size: 32px;
+  color: #115780;
+  margin: 5px;
+  text-align: center;
+  font-family: cursive;
+}
