@@ -13,3 +13,22 @@ body{
   text-align: center;
   font-family: cursive;
 }
+.login-container .form-group{
+  margin: 5px;
+}
+.login-container .form-group label{
+  display: block;
+  font-weight: 550;
+  font-size: 18px;
+  color: #162F3E;
+}
+.login-container .form-group input{
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 19px;
+  font-weight: 550;
+  width: 100%;
+  outline: none;
+  margin: 3px;
+}
