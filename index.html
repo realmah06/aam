@@ -4,9 +4,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>A A Mujaheed | Login</title>
-  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="/css/index.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 </head>
+<style>
+  body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container{
+  width: 550px;
+}
+.login-container h2{
+  font-size: 32px;
+  color: #115780;
+  margin: 5px;
+  text-align: center;
+  font-family: cursive;
+}
+.login-container .form-group{
+  margin: 5px;
+}
+.login-container .form-group label{
+  display: block;
+  font-weight: 550;
+  font-size: 18px;
+  color: #162F3E;
+}
+.login-container .form-group input{
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 19px;
+  font-weight: 550;
+  width: 100%;
+  outline: none;
+  margin: 3px;
+}
+</style>
 <body>
   <div class="login-container">
     <br />
@@ -25,6 +60,11 @@
       <div class="form-group">
         <label for="Password">Password</label>
         <input type="text" name="password" id="password" placeholder="Password" />
+      </div>
+      <div class="form-group">
+        <center>
+          <button type="submit">Login</button>
+        </center>
       </div>
     </form>
   </div>
